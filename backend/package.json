@@ -1,0 +1,37 @@
+{
+  "name": "ceo-pulse-backend",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nest start --watch",
+    "build": "nest build",
+    "start": "node dist/main.js",
+    "prisma:generate": "prisma generate",
+    "prisma:db:push": "prisma db push",
+    "prisma:seed": "ts-node prisma/seed.ts"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.2.0",
+    "@nestjs/core": "^10.2.0",
+    "@nestjs/jwt": "^10.2.0",
+    "@nestjs/passport": "^10.2.0",
+    "@nestjs/platform-express": "^10.2.0",
+    "@nestjs/swagger": "^7.0.0",
+    "@prisma/client": "^5.0.0",
+    "bcrypt": "^5.1.1",
+    "class-transformer": "^0.10.0",
+    "class-validator": "^0.13.0",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.0",
+    "prisma": "^5.0.0",
+    "reflect-metadata": "^0.10.0",
+    "rxjs": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "@types/passport-jwt": "^3.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.5.0"
+  }
+}
