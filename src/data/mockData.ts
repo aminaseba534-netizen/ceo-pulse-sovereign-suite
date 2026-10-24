@@ -72,3 +72,16 @@ export const teamSummary = [
   { name: 'Security', role: 'Defense & controls', score: '97/100', status: 'Strong' },
   { name: 'Innovation', role: 'Transformation Office', score: '86/100', status: 'Adapting' },
 ];
+
+export const notifications = [
+  { id: 1, title: 'Backup sync drift', detail: 'Secondary storage remains 3 minutes behind target.', time: '2 min ago', level: 'critical' },
+  { id: 2, title: 'Access anomaly', detail: 'One privileged profile attempted repeated non-standard logins.', time: '12 min ago', level: 'warning' },
+  { id: 3, title: 'Policy update', detail: 'New compliance workflow deployed to 6 regions.', time: '18 min ago', level: 'info' },
+  { id: 4, title: 'Revenue alert', detail: 'Regional cash flow is 4.2% above forecast.', time: '36 min ago', level: 'info' },
+];
+
+export const chartSeries = {
+  revenue: [42, 48, 51, 49, 62, 68, 75, 79, 82, 88],
+  security: [95, 96, 94, 97, 98, 99, 99, 98, 97, 99],
+  operations: [70, 72, 74, 76, 78, 77, 81, 83, 86, 90],
+};
